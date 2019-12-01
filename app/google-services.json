@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "583674809584",
+    "firebase_url": "https://neshm-243410.firebaseio.com",
+    "project_id": "neshm-243410",
+    "storage_bucket": "neshm-243410.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583674809584:android:8e2f0d563a1d68b1",
+        "android_client_info": {
+          "package_name": "com.androhome.neshm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583674809584-9ahin3e35r42qip0r3iru3447rk83jsg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androhome.neshm",
+            "certificate_hash": "34c9ab1cc1f2df26f3db68c251939cb084b52c7f"
+          }
+        },
+        {
+          "client_id": "583674809584-sa0kq3lvr8f5apigk39o3a87k86pl3i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl14vIaKmRJtPS17XMWd2Dj4ZEMODLeGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583674809584-sa0kq3lvr8f5apigk39o3a87k86pl3i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

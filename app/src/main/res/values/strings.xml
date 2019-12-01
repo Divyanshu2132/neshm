@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">neshm</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="submit">Submit</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_an_account">
+        <u>Don\'t have an account? Sign Up</u>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_email_or_phone_number">Enter Email or Phone Number</string>
+    <string name="tutor">Tutor</string>
+    <string name="map">Map</string>
+    <string name="schedule">Schedule</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="previous_orders">Previous Orders</string>
+    <string name="set_schedule">Set Schedule</string>
+    <string name="_5pm">5pm</string>
+    <string name="_5pm_5_30pm">5pm-5:30pm</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="search">Search for genres and tutors…</string>
+    <string name="preference_file_key">neshm</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="Otp_info">* Enter OTP received in email during Sign Up</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="profile">Profile</string>
+    <string name="house_no">House no.</string>
+</resources>

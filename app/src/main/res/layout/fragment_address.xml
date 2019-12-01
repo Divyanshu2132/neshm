@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.AddressFragment">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:background="@drawable/login_gradient"
+    >
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                   android:src="@drawable/neshm_logo_trans_white"
+                   android:layout_gravity="center"
+                   android:padding="@dimen/dp16"
+                   android:layout_marginTop="@dimen/dp10"
+        />
+        <EditText android:layout_width="match_parent" android:layout_height="@dimen/dp51"
+                  android:background="@drawable/round_edit_text"
+                  android:id="@+id/houseno"
+                  android:hint="@string/house_no"
+                  android:textColor="@color/white"
+                  android:textColorHint="@color/white"
+                  android:layout_gravity="center"
+                  android:drawableStart="@drawable/ic_person_outline_black_24dp"
+                  android:paddingStart="@dimen/dp10"
+                  android:drawablePadding="@dimen/dp5"
+                  android:layout_marginLeft="@dimen/dp16"
+                  android:layout_marginRight="@dimen/dp16"
+        />
+        <EditText android:layout_width="match_parent" android:layout_height="@dimen/dp51"
+                  android:background="@drawable/round_edit_text"
+                  android:id="@+id/street"
+                  android:hint="Street"
+                  android:textColor="@color/white"
+                  android:textColorHint="@color/white"
+                  android:layout_gravity="center"
+                  android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+                  android:paddingStart="@dimen/dp10"
+                  android:drawablePadding="@dimen/dp5"
+                  android:layout_marginLeft="@dimen/dp16"
+                  android:layout_marginRight="@dimen/dp16"
+                  android:layout_marginTop="@dimen/dp8"
+        />
+
+        <EditText android:layout_width="match_parent" android:layout_height="@dimen/dp51"
+                  android:id="@+id/area"
+                  android:background="@drawable/round_edit_text"
+                  android:maxLength="10"
+                  android:hint="Area"
+                  android:textColor="@color/white"
+                  android:textColorHint="@color/white"
+                  android:layout_gravity="center"
+                  android:drawableStart="@drawable/ic_phone_black_24dp"
+                  android:paddingStart="@dimen/dp10"
+                  android:drawablePadding="@dimen/dp5"
+                  android:layout_marginLeft="@dimen/dp16"
+                  android:layout_marginRight="@dimen/dp16"
+                  android:layout_marginTop="@dimen/dp8"
+        />
+
+        <EditText android:layout_width="match_parent" android:layout_height="@dimen/dp51"
+                  android:background="@drawable/round_edit_text"
+                  android:id="@+id/city"
+                  android:hint="City"
+                  android:textColor="@color/white"
+                  android:textColorHint="@color/white"
+                  android:layout_gravity="center"
+                  android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                  android:paddingStart="@dimen/dp10"
+                  android:drawablePadding="@dimen/dp5"
+                  android:layout_marginLeft="@dimen/dp16"
+                  android:layout_marginRight="@dimen/dp16"
+                  android:layout_marginTop="@dimen/dp8"
+        />
+
+        <EditText android:layout_width="match_parent" android:layout_height="@dimen/dp51"
+                  android:background="@drawable/round_edit_text"
+                  android:id="@+id/state"
+                  android:hint="State"
+                  android:textColor="@color/white"
+                  android:textColorHint="@color/white"
+                  android:layout_gravity="center"
+                  android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                  android:paddingStart="@dimen/dp10"
+                  android:drawablePadding="@dimen/dp5"
+                  android:layout_marginLeft="@dimen/dp16"
+                  android:layout_marginRight="@dimen/dp16"
+                  android:layout_marginTop="@dimen/dp8"
+        />
+
+        <EditText android:layout_width="match_parent" android:layout_height="@dimen/dp51"
+                  android:background="@drawable/round_edit_text"
+                  android:id="@+id/pincode"
+                  android:hint="Pincode"
+                  android:textColor="@color/white"
+                  android:textColorHint="@color/white"
+                  android:layout_gravity="center"
+                  android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                  android:paddingStart="@dimen/dp10"
+                  android:drawablePadding="@dimen/dp5"
+                  android:layout_marginLeft="@dimen/dp16"
+                  android:layout_marginRight="@dimen/dp16"
+                  android:layout_marginTop="@dimen/dp8"
+        />
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <EditText android:layout_width="match_parent" android:layout_height="@dimen/dp51"
+                      android:background="@drawable/round_edit_text"
+                      android:id="@+id/landmark"
+                      android:hint="Landmark"
+                      android:textColor="@color/white"
+                      android:textColorHint="@color/white"
+                      android:layout_gravity="center"
+                      android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+                      android:paddingStart="@dimen/dp10"
+                      android:drawablePadding="@dimen/dp5"
+                      android:layout_marginLeft="@dimen/dp16"
+                      android:layout_marginRight="@dimen/dp16"
+                      android:layout_marginTop="@dimen/dp8"
+            />
+
+            <ProgressBar
+                    style="?android:attr/progressBarStyleInverse"
+                    android:id="@+id/progress_bar"
+                    android:progressDrawable="@drawable/red_gradient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/landmark"
+                    android:layout_alignRight="@id/landmark"
+                    android:layout_alignTop="@id/landmark"/>
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent"
+                                                   android:layout_height="@dimen/dp51"
+                                                   android:id="@+id/submit_button"
+                                                   android:layout_gravity="center"
+                                                   android:background="@drawable/round_button"
+                                                   android:text="@string/submit"
+                                                   android:textColor="@color/white"
+                                                   android:layout_margin="@dimen/dp16"
+        />
+
+    </LinearLayout>
+
+</FrameLayout>

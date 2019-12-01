@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.androhome.neshm.fragments.ForgotPasswordFragment">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:background="@drawable/login_gradient"
+    >
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/neshm_logo_trans_white"
+                android:padding="@dimen/dp32"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp32"
+        />
+        <EditText android:layout_width="match_parent" android:layout_height="@dimen/dp51"
+                  android:id="@+id/otpEditText"
+                  android:background="@drawable/round_edit_text"
+                  android:hint="@string/enter_otp"
+                  android:textColor="@color/white"
+                  android:textColorHint="@color/white"
+                  android:layout_gravity="center"
+                  android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+                  android:paddingStart="@dimen/dp10"
+                  android:drawablePadding="@dimen/dp5"
+                  android:layout_marginLeft="@dimen/dp16"
+                  android:layout_marginRight="@dimen/dp16"
+                  android:layout_marginTop="@dimen/dp16"
+        />
+
+        <androidx.appcompat.widget.AppCompatButton android:layout_width="match_parent"
+                                                   android:layout_height="@dimen/dp51"
+                                                   android:id="@+id/submit_button"
+                                                   android:layout_gravity="center"
+                                                   android:background="@drawable/round_button"
+                                                   android:text="@string/submit"
+                                                   android:textColor="@color/white"
+                                                   android:layout_margin="@dimen/dp16"
+        />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.appcompat.widget.AppCompatTextView android:layout_height="wrap_content"
+                                                         android:layout_width="wrap_content"
+                                                         android:layout_gravity="center|bottom"
+                                                         android:layout_alignParentBottom="true"
+                                                         android:text="@string/Otp_info"
+                                                         android:layout_margin="@dimen/dp32"
+                                                         android:textSize="18sp"
+                                                         android:textColor="#9E9E9E"
+            />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>
